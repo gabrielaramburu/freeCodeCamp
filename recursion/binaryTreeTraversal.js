@@ -38,8 +38,8 @@ function treeTraversal(node, name) {
 
 }
 
-node = treeTraversal(node1, "Carl");
-if (node != undefined) {
+node = treeTraversal(node1, "Bob");
+if (node) {
     console.log(node.value);
 } else {
     console.log("No existe nodo");
