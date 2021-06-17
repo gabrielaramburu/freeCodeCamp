@@ -7,3 +7,13 @@ function factorial(fact){
 }
 
 console.log(factorial(6));
+
+//other way
+function factorialize(num) {  
+    if (num<=1) {
+      return 1;
+    } 
+  
+    let fact = num * factorialize(num-1) ;
+    return fact;
+  }
